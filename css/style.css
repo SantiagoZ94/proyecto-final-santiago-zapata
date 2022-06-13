@@ -100,7 +100,7 @@
 }
 
 .titulo-servicios {
-  width: 100%;
+  width: 40%;
   max-width: 1080px;
   margin: auto;
   padding: 20px;
@@ -197,6 +197,114 @@
   justify-content: center;
 }
 
+/* Recursos humanos*/
+.contenedor-rrhh {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.titulo-rrhh {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  cursor: default;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.card-rrhh {
+  width: 30%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+
+.card-rrhh:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card-rrhh img {
+  width: 100%;
+  height: 210px;
+}
+
+.card-rrhh .contenido-card-rrhh {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-rrhh .contenido-card-rrhh h3 {
+  margin-bottom: 15px;
+  color: #7a7a7a;
+}
+
+.card-rrhh .contenido-card-rrhh p {
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.contenedor-form-rrhh {
+  width: 70%;
+  margin: auto;
+}
+
+.boton-rrhh {
+  display: flex;
+  justify-content: end;
+}
+
+/*MEDIA QUERY TABLET*/
+@media (min-width: 451px) and (max-width: 960px) {
+  .contenedor-rrhh {
+    flex-direction: column;
+  }
+  .card-rrhh {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+  }
+  .contenedor-form-rrhh {
+    width: 100%;
+    margin: auto;
+  }
+}
+/*MEDIA QUERY MOBILE*/
+@media (max-width: 450px) {
+  .contenedor-rrhh {
+    flex-direction: column;
+  }
+  .card-rrhh {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+  }
+  .contenedor-form-rrhh {
+    width: 100%;
+    margin: auto;
+  }
+}
 /*   FOOTER   */
 footer {
   display: flex;
