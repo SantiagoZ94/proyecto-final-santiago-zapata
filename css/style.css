@@ -172,6 +172,22 @@
     flex-direction: column;
   }
 }
+/* Contacto */
+.titulo-contacto {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.boton-contacto {
+  display: flex;
+  justify-content: end;
+}
+
 /*   FOOTER   */
 footer {
   display: flex;
