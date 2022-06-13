@@ -1,0 +1,12 @@
+Elementos del SEO añadidos y supervisados en el proyectos:
+1- Titulo de 46 caracteres.
+2- No mas de un h1 en los index que ya se encuentra la etiqueta.
+3- Mas enlaces internos que externos. Y el único externo que hay al clickearlo se abre en otra pestaña.
+4- Maquetación sin tablas.
+5- Mayoría de las imágenes tituladas. Todos los contenidos multimedia del sitio estarán titulados al finalizarlo.
+6- Imágenes con descripción en Alt. 
+7- Semántica de las etiquetas.
+8- Favicon en pestaña.
+9- Meta description.
+10- Meta keywords.
+Hasta el momento estas son algunos elementos del SEO aplicados, la idea es poder aplicar todo lo visto en clases en el proyecto final. 

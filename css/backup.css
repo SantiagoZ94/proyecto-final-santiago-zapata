@@ -1,0 +1,151 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+/*   HEADER   */
+/* .logo {
+    border-radius: 20%; 
+    width: 120px;
+    height: 120px;
+}
+
+.navegables {
+    margin-left: 40px;
+} */
+/*   MAIN   */
+/* .texto-img-carrusel {
+    color: black;
+    font-weight: 600;
+} */
+
+/*Opiniones*/
+/* .opiniones {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+.opiniones-inicio {
+    background-color: #F1FAEE;
+    margin: 30px 30px 30px 30px;
+} */
+/*Servicios*/
+/* .servicios {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+.servicio-x {
+    padding: 30px 30px 30px 30px;
+    background-color: #457B9D;
+    border: 2px solid black;
+    border-radius: 3%;
+} */
+/*   FOOTER   */
+/* footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #457B9D;
+    padding: 10px;
+}
+
+footer div a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #F1FAEE;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+footer div a img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.redes-footer {
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+    padding-left: 40px;
+    transition: all 300ms;
+}
+.img-footer {
+    border-radius: 20%;
+}
+
+footer div a img:hover {
+    transform: scale(1.15);
+    transition: all 300ms;
+} */
+
+
+/*MEDIA QUERY TABLET*/
+/* @media (min-width:451px) and (max-width:960px)  {
+    /*MAIN TABLET*/
+    /* .opiniones{
+        flex-direction: column;
+    }
+    .servicios{
+        flex-direction: column;
+        justify-content: space-around;
+    align-content: center;
+    } */
+    /*FOOTER TABLET*/
+    /* footer {
+        flex-direction: column;
+        background: rgb(69, 123, 157);
+        background: linear-gradient(0deg, rgba(69, 123, 157, 1) 26%, rgba(241, 250, 238, 1) 83%);
+    }
+    .redes-footer {
+        width: 100px;
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 40px;
+        transition: all 300ms;
+    }
+    footer div a img:hover {
+        transform: scale(1.15);
+        transition: all 300ms;
+    }
+    
+} */
+/*MEDIA QUERY MOBILE*/
+/* @media (max-width:450px) { */
+    /*MAIN MOBILE*/
+    /* .opiniones{
+        flex-direction: column;
+    }
+    .servicios{
+        flex-direction: column;
+        justify-content: space-around;
+    align-content: center;
+    } */
+
+    /*FOOTER MOBILE*/
+    /* footer {
+        flex-direction: column;
+        background: rgb(69, 123, 157);
+        background: linear-gradient(0deg, rgba(69, 123, 157, 1) 26%, rgba(241, 250, 238, 1) 83%);
+    }
+    .redes-footer {
+        width: 100px;
+        height: 60px;
+        margin-right: 10px;
+        padding-left: 40px;
+        transition: all 300ms;
+    }
+    footer div a img:hover {
+        transform: scale(1.15);
+        transition: all 300ms;
+    }
+} */

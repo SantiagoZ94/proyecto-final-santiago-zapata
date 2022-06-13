@@ -1,0 +1,66 @@
+@import '../base/mapas';
+@import '../base/extends';
+/*   MAIN INDEX   */
+.hero {
+    width: 100vw;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)),url(https://img.freepik.com/foto-gratis/medicos-enfermeras-coordinan-manos-concepto-trabajo-equipo_43314-961.jpg?w=1380);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.hero h1 {
+    font-size: 60px ;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 30px ;
+}
+.carrusel {
+    margin-top: 40px;
+}
+.texto-img-carrusel {
+    color: black;
+    font-weight: 600;
+}
+
+/*Opiniones*/
+.opiniones {
+    margin-top: 60px;
+    padding-bottom: 120px;
+    @extend %flex-around; 
+}
+.opiniones-inicio {
+    margin: 30px 30px 30px 30px;
+}
+
+/*MEDIA QUERY TABLET*/
+@media (min-width:451px) and (max-width:960px)  {
+    /*MAIN TABLET*/
+    .opiniones{
+        flex-direction: column;
+    }
+    .servicios{
+        flex-direction: column;
+        justify-content: space-around;
+    align-content: center;
+}
+}
+/*MEDIA QUERY MOBILE*/
+@media (max-width:450px) {
+    /*MAIN MOBILE*/
+    .opiniones{
+        flex-direction: column;
+    }
+    .servicios{
+        flex-direction: column;
+        justify-content: space-around;
+    align-content: center;
+    }
+}
