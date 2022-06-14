@@ -9,7 +9,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="../imagenes/imagen.logo.favicon.ico">
+  <!--META SEO-->
+  <meta name="description"
+    content="Somos una empresa de facturación medica. Brindamos servicios para facilitarle la tarea a los médicos, gestionamos su facturación, realizamos los cobros, reclamos débitos y realizamos balances de sus ganancias.    ">
+  <meta name="keywords" content="Facturación, médica, cobros, servicios, gestión, débitos, balances, cobros, reclamos de débitos, doctores, especialidades médicas, ganancias, papeleo, archivo, gestión de cobros.  ">
+    <link rel="shortcut icon" href="../imagenes/imagen.logo.favicon.ico" type="imagen/x-icon">
   <title>Tu Facturación | Empresa de facturación médica</title>
 </head>
 
@@ -46,36 +50,36 @@
   <!--   MAIN   -->
   <main>
     <section>
-    <h3 class="titulo-contacto">Complete el siguiente formulario y nos contactaremos a la brevedad</h3>
-    <div class="row formulario-contacto">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Nombre/s" aria-label="First name">
+      <h3 class="titulo-contacto">Complete el siguiente formulario y nos contactaremos a la brevedad</h3>
+      <div class="row formulario-contacto">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre/s" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido/s" aria-label="Last name">
+        </div>
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Apellido/s" aria-label="Last name">
+      <div class="form-floating formulario-contacto">
+        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+          <option selected></option>
+          <option value="1">Servicio Básico</option>
+          <option value="2">Servicio Estándar</option>
+          <option value="3">Servicio Superior</option>
+        </select>
+        <label for="floatingSelect">Elegí el servicio que te interesa</label>
       </div>
-    </div>
-    <div class="form-floating formulario-contacto">
-      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-        <option selected></option>
-        <option value="1">Servicio Básico</option>
-        <option value="2">Servicio Estándar</option>
-        <option value="3">Servicio Superior</option>
-      </select>
-      <label for="floatingSelect">Elegí el servicio que te interesa</label>
-    </div>
-    <div class="mb-3 ">
-      <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Consultas</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <div class="boton-contacto formulario-contacto">
-      <button type="submit" class="btn btn-primary btn-info btn-lg ">Enviar</button>
-    </div>
-  </section>
+      <div class="mb-3 ">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Consultas</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="boton-contacto formulario-contacto">
+        <button type="submit" class="btn btn-primary btn-info btn-lg ">Enviar</button>
+      </div>
+    </section>
   </main>
 
   <!--   FOOTER   -->
